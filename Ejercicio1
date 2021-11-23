@@ -1,0 +1,33 @@
+c=int(input("inserte primer numero real :"))
+d=int(input("inserte primer numero imaginario :"))
+e=int(input("inserte segundo numero real: "))
+f=int(input("inserte segundo numero imaginario: "))
+a=complex(c,d)
+b=complex(e,f)
+
+def sumar(a,b):
+	suma=a+b
+	return suma
+	return a+b
+def restar(a,b):
+	resta=a-b
+	return resta
+def multiplicar (a,b):
+	multiplicar2=a*b
+	return multiplicar2
+def dividir (a,b):
+	division=a/b
+	return division
+###suma
+resultado_suma=sumar(a,b)	
+print(resultado_suma)
+##resta
+resultado_resta=restar(a,b)
+print(resultado_resta)
+
+##multiplicacion
+resultado_multiplicacion=multiplicar(a,b)
+print(resultado_multiplicacion)
+#division 
+resultado_division=dividir(a,b)
+print(resultado_division)
