@@ -1,5 +1,5 @@
 c=int(input("inserte primer numero real: "))
-d=int(input("inserte primer numero imaginario  :"))
+d=int(input("inserte primer numero imaginario :"))
 e=int(input("inserte segundo numero real: "))
 f=int(input("inserte segundo numero imaginario: "))
 a=complex(c,d)
@@ -18,7 +18,8 @@ def multiplicar (a,b):
 def dividir (a,b):
 	division=a/b
 	return division
-###suma
+
+###suma 
 resultado_suma=sumar(a,b)	
 print(resultado_suma)
 ##resta
