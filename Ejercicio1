@@ -1,5 +1,5 @@
-c=int(input("inserte primer numero real :"))
-d=int(input("inserte primer numero imaginario :"))
+c=int(input("inserte primer numero real: "))
+d=int(input("inserte primer numero imaginario  :"))
 e=int(input("inserte segundo numero real: "))
 f=int(input("inserte segundo numero imaginario: "))
 a=complex(c,d)
