@@ -39,9 +39,10 @@ class Matrix:
         self.matriz1[2][0] * self.dotVector[0] + self.matriz1[2][1] * self.dotVector[1] + self.matriz1[2][2] * self.dotVector[2])
 
 
-# La matriz a crear recibe la lista de los 6 vectores a sumar (dos matrices de 3x3) y un vector de 3x1 para multiplicar
+# La matriz a crear recibe la lista de los 6 vectores a sumar (dos matrices de 3x3) y un vector de 3x1 para multiplicar. Para 'dividir' por un vector
+# escribir el último vector como 1/vector. Ejemplo: 1/1, 1/2, 1/3 
 
-A = Matrix([2,1,3],[1,3,4],[4,5,2],[1,5,2],[5,3,1],[2,4,6],[1,1,3])
+A = Matrix([2,1,3],[1,3,4],[4,5,2],[1,5,2],[5,3,1],[2,4,6],[1,2,3])
 A.myMatrix()
 A.suma()
 A.resta()
