@@ -14,7 +14,7 @@ class Matrix:
                 self.v6]
         self.dotVector = dotVector
 
-# Todos los métodos a mejorar
+# Todos los métodos a mejorar, deberia iterar la lista de listas y manejarse con los indices automaticamente
 
     def myMatrix(self):
         print(self.matriz1)
